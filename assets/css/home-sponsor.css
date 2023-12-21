@@ -1,0 +1,25 @@
+.sponsor-grid{
+    background-color: rgb(3, 24, 55);
+    margin: 0px;
+}
+.item-grid-sponsor{
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0.95rem 0px;
+}
+.item-grid-sponsor img:hover {
+   height: 5rem;
+}
+.img-sps{
+    padding-left: 100px;
+}
+.our-partner{
+    font-family: 'Gothic League';
+    font-size: 3rem;
+    background-color: #f8c95f;
+}
+@media (max-width: 600px){
+    .sponsor-grid{
+        background-size:contain
+    }
+}

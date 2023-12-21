@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=DM+Sans:opsz,wght@9..40,400;9..40,600;9..40,800&family=Dancing+Script:wght@400;500;600;700&family=Inter:wght@400;600;700;800;900&family=Lexend+Peta:wght@400;700;900&family=Roboto+Condensed:wght@400;700&family=Roboto:wght@400;500;700&family=Vina+Sans&display=swap');
+body{
+    font-family: 'DM Sans', sans-serif;
+    background-color: rgb(7, 42, 93);
+    color: white;
+    overflow-x: hidden;
+}
+.margin-leftQ1{
+    padding-left: 100px;
+}
+.navbar{
+    padding-top: 0px;
+    padding-bottom: 0px;   
+}
+.page-logo{
+    height: 80px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.nav-header{
+    background-color: #001538;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+.nav-link{
+    color: white;
+    margin-right: 20%;
+    border-radius: 10px;
+}
+.nav-link:hover,
+.nav-link:active {
+    color: white;
+    transform: translateY(-4px);
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 7px );
+    -webkit-backdrop-filter: blur( 7px );
+    border-radius: 10px;
+
+}
+.nav-item{
+    padding: 0px 20px 0px 20px;
+}
+
+.social-link{
+    margin-top: 5px;
+    text-decoration: none;
+    margin-left: 5%;
+}
+.social-link a{
+    padding: 0px 20px 0px 20px;
+}
+.trans-header{
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+}
+
+@media only screen and (max-width: 600px) {
+    .nav-link{
+        margin-left: 80px;
+    }
+    .page-logo{
+        margin-left: 18px;
+        margin-right: 0px;
+    }
+  }

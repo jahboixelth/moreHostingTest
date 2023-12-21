@@ -1,0 +1,66 @@
+.match-section{
+    margin-top: 5rem;
+}
+.match-section h3{
+    color: rgb(149, 190, 241);
+}
+.span-container{
+    margin-left: 40%;
+}
+.span-container span{
+    margin: 0px 3% 0px 3%;
+}
+main{
+    padding: 0px;
+    margin: 0px;
+}
+.tournament-title{
+    font-size: 1.5rem;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+main span img{
+    height: 35px;
+}
+.game-card{
+    margin: 10px 1rem 10px 1rem;
+    padding: 15px 30px; 
+}
+.game-card:hover{
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.8);
+
+}
+.bg-transparent{
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.pixe-30{
+    height: 30px;
+}
+.match-footer a{
+    text-decoration: none;
+}
+.match-footer a h4{
+    font-weight: 700;
+    font-size: 1.2rem;
+    padding-left: 10%;
+    padding-top: 5px;
+    color: rgb(248, 201, 95);
+}
+.match-footer a h4:hover{
+    text-decoration: underline;
+}
+
+@media (max-width:600px) {
+    main div{
+        padding: 5px 10px;
+        margin-right: -10px;
+    }
+    .match-section{
+        margin-top: 10px;
+    }
+}

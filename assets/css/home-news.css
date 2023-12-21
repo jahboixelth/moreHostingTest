@@ -1,0 +1,54 @@
+@font-face { font-family: Gothic League; src: url('../assets/fonts/LeagueGothic-1.601/static/OTF/LeagueGothic-Regular.otf'); } 
+article{
+    padding-top: 100px;
+    position: relative;
+    justify-content: center;
+}
+.text-news{
+    position: absolute;
+    bottom: 20px;
+    color: white;
+    width: 45%;
+    margin-left: 20%;
+}
+.text-news p{
+    font-size: 0.75rem;
+}
+.text-news button{
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+    color: #001538;
+    font-weight: 700;
+}
+.text-news h3{
+    font-size: 5.7rem;
+    font-family: 'Gothic League';
+}
+.thumbnail{ 
+    align-self: center;
+    border-radius: 30px;
+}
+.cont-img{
+    border-radius: 10px;
+    margin-top: 45px;
+}
+@media only screen and (max-width: 600px) {
+    .text-news{
+        margin-top: 120px;
+        margin-bottom: 0px;
+    }
+    .text-news h3{
+        font-size: 1.8rem;
+    }
+    .text-news p{
+        font-size: 0.5rem;
+    }
+    .text-news button{
+        border: none;
+        border-radius: 20px;
+        padding: px 0px 5px 0px 5px;
+        color: #001538;
+        font-size: 0.6rem;
+    }
+}
