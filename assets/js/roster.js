@@ -38,7 +38,7 @@ const player = [
 ]
 
 player.forEach((p)=>{
-    cardSectionHTML += `<div class="player rounded flex-md-column flex-sm-row col-sm-3 col-10" style="background-image: url('./assets/image/player/${p.name}.jpg');">
+    cardSectionHTML += `<div class="player rounded flex-md-column flex-sm-row col-sm-3 col-10" style="background-image: url('../assets/image/player/${p.name}.jpg');">
     <h3 class="text-center player-name">${p.name}</h3>
     <p class="text-center">${p.description}</p>
   </div>`
