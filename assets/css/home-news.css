@@ -1,4 +1,4 @@
-@font-face { font-family: Gothic League; src: url('../assets/fonts/LeagueGothic-1.601/static/OTF/LeagueGothic-Regular.otf'); } 
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
 article{
     padding-top: 100px;
     position: relative;
